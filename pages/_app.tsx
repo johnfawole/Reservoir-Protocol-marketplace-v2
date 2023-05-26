@@ -83,7 +83,7 @@ function AppWrapper(props: AppProps & { baseUrl: string }) {
       <PaperEmbeddedWalletProvider
         appName="Paper RainbowKit Provider Example"
         walletOptions={{
-          clientId: `90c5576d-96d4-4c2f-a50e-92585a879807`,
+          clientId: `3fc2b342-fc11-4b8b-99e7-f3dd75125cba`,
           chain: 'Polygon',
             
             <button onClick={() => sdk.auth.loginWithPaperModal()}>
