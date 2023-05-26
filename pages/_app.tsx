@@ -85,7 +85,11 @@ function AppWrapper(props: AppProps & { baseUrl: string }) {
         walletOptions={{
           clientId: `90c5576d-96d4-4c2f-a50e-92585a879807`,
           chain: 'Polygon',
+            
+            <button onClick={() => sdk.auth.loginWithPaperModal()}>
           name: 'Paper Inc',
+             </button>
+     
           iconUrl: 'https://withpaper.com/favicon.ico',
           iconBackground: '#000000',
         }}
