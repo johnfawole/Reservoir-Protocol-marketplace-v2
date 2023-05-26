@@ -33,8 +33,10 @@ import ToastContextProvider from 'context/ToastContextProvider'
 import supportedChains from 'utils/chains'
 import { useMarketplaceChain } from 'hooks'
 import ChainContextProvider from 'context/ChainContextProvider'
-import { PaperEmbeddedWalletProvider } from '@paperxyz/embedded-wallet-service-rainbowkit'
+
 import '@rainbow-me/rainbowkit/styles.css'
+
+import { PaperEmbeddedWalletSdk } from "@paperxyz/embedded-wallet-service-sdk";
 
 //CONFIGURABLE: Use nextjs to load your own custom font: https://nextjs.org/docs/basic-features/font-optimization
 const inter = Inter({
